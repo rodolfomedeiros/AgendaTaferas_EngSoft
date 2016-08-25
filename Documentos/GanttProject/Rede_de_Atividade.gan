@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Rede_de_Atividades" company="" webLink="http://" view-date="2016-09-22" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.8.1" locale="pt_BR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Rede_de_Atividades" company="" webLink="http://" view-date="2016-10-03" view-index="0" gantt-divider-location="523" resource-divider-location="300" version="2.8.1" locale="pt_BR">
     <description><![CDATA[Redes de atividades do projeto Agenda de tarefas.]]></description>
     <view zooming-state="default:1" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="199" order="0"/>
-        <field id="tpd4" name="Data inicial" width="75" order="1"/>
-        <field id="tpd5" name="Data final" width="75" order="2"/>
+        <field id="tpd3" name="Nome" width="350" order="0"/>
+        <field id="tpd4" name="Data inicial" width="84" order="1"/>
+        <field id="tpd5" name="Data final" width="85" order="2"/>
         <option id="color.recent"><![CDATA[#00cccc #669900 #ffff33 #cccc00 #ff6600 #ff3333 #f4f4f4]]></option>
     </view>
     <view id="resource-table">
@@ -59,63 +59,67 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="AT_01" color="#ff3333" meeting="false" start="2016-08-29" duration="1" complete="0" expand="true">
-            <notes><![CDATA[Conpreender o dominio]]></notes>
+        <task id="0" name="AT_01 - Compreender o dominio" color="#ff3333" meeting="false" start="2016-08-29" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Compreender o dominio]]></notes>
             <depend id="3" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="3" name="AT_02" color="#ff3333" meeting="false" start="2016-08-30" duration="1" complete="0" expand="true">
+        <task id="3" name="AT_02 - Estruturar o problema" color="#ff3333" meeting="false" start="2016-08-30" duration="1" complete="0" expand="true">
             <notes><![CDATA[Estruturar o problema]]></notes>
             <depend id="5" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="5" name="AT_03" color="#ff6600" meeting="false" start="2016-08-31" duration="1" complete="0" expand="true">
+        <task id="5" name="AT_03 - Analisar os casos de uso" color="#ff6600" meeting="false" start="2016-08-31" duration="1" complete="0" expand="true">
             <notes><![CDATA[Analisar os casos de uso]]></notes>
             <depend id="6" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="6" name="AT_04" color="#ff6600" meeting="false" start="2016-09-01" duration="1" complete="0" expand="true">
+        <task id="6" name="AT_04 - Definir os requisitos do sistema" color="#ff6600" meeting="false" start="2016-09-01" duration="1" complete="0" expand="true">
             <notes><![CDATA[Definir os requisitos do sistema]]></notes>
             <depend id="9" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="9" name="AT_05" color="#ff6600" meeting="false" start="2016-09-02" duration="1" complete="0" expand="true">
+        <task id="9" name="AT_05 - Elaborar cénarios dos casos de uso" color="#ff6600" meeting="false" start="2016-09-02" duration="1" complete="0" expand="true">
             <notes><![CDATA[Elaborar cénarios dos casos de uso]]></notes>
             <depend id="11" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="11" name="AT_03" color="#cccc00" meeting="false" start="2016-09-05" duration="1" complete="0" expand="true">
+        <task id="11" name="AT_03 - Analisar os casos de uso" color="#cccc00" meeting="false" start="2016-09-05" duration="1" complete="0" expand="true">
             <notes><![CDATA[Analisar os casos de uso]]></notes>
-            <depend id="33" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="1" difference="0" hardness="Strong"/>
         </task>
-        <task id="17" name="AT_06" color="#cccc00" meeting="false" start="2016-09-05" duration="1" complete="0" expand="true">
+        <task id="17" name="AT_06 - Analisar documento de requisitos do sistema" color="#cccc00" meeting="false" start="2016-09-05" duration="1" complete="0" expand="true">
             <notes><![CDATA[Analisar documento de requisitos do sistema]]></notes>
-            <depend id="33" type="2" difference="0" hardness="Strong"/>
+            <depend id="33" type="1" difference="0" hardness="Strong"/>
         </task>
-        <task id="33" name="AT_07" color="#cccc00" meeting="false" start="2016-09-06" duration="1" complete="0" expand="true">
+        <task id="33" name="AT_07 - Criar esboço inicial" color="#cccc00" meeting="false" start="2016-09-05" duration="1" complete="0" expand="true">
             <notes><![CDATA[Criar esboço inicial]]></notes>
             <depend id="36" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="36" name="AT_08" color="#ffff33" meeting="false" start="2016-09-08" duration="1" complete="0" expand="true">
+        <task id="36" name="AT_08 - Analisar toda a documentação existente" color="#ffff33" meeting="false" start="2016-09-06" duration="1" complete="0" expand="true">
             <notes><![CDATA[Analisar toda a documentação existente]]></notes>
+            <depend id="44" type="1" difference="0" hardness="Strong"/>
         </task>
-        <task id="44" name="AT_09" color="#ffff33" meeting="false" start="2016-09-08" duration="1" complete="0" expand="true">
+        <task id="44" name="AT_09 - Elabora abstrações das funcionalidades do sistema" color="#ffff33" meeting="false" start="2016-09-06" duration="1" complete="0" expand="true">
             <notes><![CDATA[Elabora abstrações das funcionalidades do sistema]]></notes>
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="51" name="AT_10" color="#ffff33" meeting="false" start="2016-09-09" duration="18" complete="0" priority="2" expand="true">
+        <task id="51" name="AT_10 - Codificar o sistema utilizando alguma linguagem de programação" color="#ffff33" meeting="false" start="2016-09-08" duration="18" complete="0" priority="2" expand="true">
             <notes><![CDATA[Codificar o sistema utilizando alguma linguagem de programação (18 dias)]]></notes>
             <depend id="59" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="59" name="AT_11" color="#669900" meeting="false" start="2016-10-05" duration="1" complete="0" expand="true">
+        <task id="59" name="AT_11 - Elaborar rotina de testes" color="#669900" meeting="false" start="2016-10-04" duration="1" complete="0" expand="true">
             <notes><![CDATA[Elaborar rotina de testes]]></notes>
+            <depend id="65" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="65" name="AT_12" color="#669900" meeting="false" start="2016-10-05" duration="1" complete="0" expand="true">
+        <task id="65" name="AT_12 - Aplicar o sistema aos testes alpha" color="#669900" meeting="false" start="2016-10-05" duration="1" complete="0" expand="true">
             <notes><![CDATA[Aplicar o sistema aos testes alpha]]></notes>
             <depend id="69" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="69" name="AT_13" color="#00cccc" meeting="false" start="2016-10-06" duration="1" complete="0" expand="true">
+        <task id="69" name="AT_13 - Entrega do Software e Instalação" color="#00cccc" meeting="false" start="2016-10-06" duration="1" complete="0" expand="true">
             <notes><![CDATA[Entrega do Software e Instalação]]></notes>
             <depend id="73" type="2" difference="0" hardness="Strong"/>
+            <depend id="79" type="1" difference="0" hardness="Strong"/>
         </task>
-        <task id="73" name="AT_14" color="#8cb6ce" meeting="false" start="2016-10-07" duration="1" complete="0" expand="true">
+        <task id="73" name="AT_14 - Suporte aos usuários" color="#00cccc" meeting="false" start="2016-10-07" duration="1" complete="0" expand="true">
             <notes><![CDATA[Suporte aos usuários]]></notes>
         </task>
-        <task id="79" name="AT_15" color="#00cccc" meeting="false" start="2016-10-28" duration="1" complete="0" expand="true">
+        <task id="79" name="AT_15 - Teste Beta" color="#00cccc" meeting="false" start="2016-10-06" duration="7" complete="0" expand="true">
             <notes><![CDATA[Teste Beta]]></notes>
         </task>
     </tasks>
