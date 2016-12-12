@@ -1,5 +1,5 @@
-# AgendaTaferas_EngSoft
-Software Agenda de tarefas - documentação - Engenharia de software
+# TaskPrime - Uma agenda de tarefas online
+WebApp - documentação - Engenharia de software
 
 # Informaçãoes
 
